@@ -3,9 +3,9 @@
 ### Prerequisitos
 
 ```
-NodeJs = v
-Mongodb = v
-ReactJS = v
+NodeJs = v10.19.0
+Mongodb = v3.6.8
+VueJS = v4.5.7
 ```
 
 ### Instalación
@@ -38,7 +38,7 @@ $ yarn start
 
   > Nota: la base de datos del proyecto se llama `idiomas` esta se crea automaticamente y no contiene password
 
-#### Frontend *(react, axios)*
+#### Frontend *(vuejs2, vuetify, axios)*
 
 1. Ingresar al directorio clonado `idiomas/frontend`
 
@@ -57,16 +57,13 @@ $ yarn install
 $ yarn serve
 ```
 
-4. Abra el sitio de desarrollo yendo a `http://localhost:3000` en su navegador.
+4. Abra el sitio de desarrollo yendo a `http://localhost:8080` en su navegador.
 
 ### Rutas utilizadas con postam
 |  Entrada   |     URL    |
 | ---------- | ---------- |
-| GET   | `http://localhost:5000/api/`   |
-| POST   | `http://localhost:5000/api/`   |
-| POST   | `http://localhost:5000/api/`   |
-| GET   | `http://localhost:5000/api/`   |
-| DELETE   | `http://localhost:5000/api`   |
+| GET   | `http://localhost:5000/api/datos`   |
+| POST   | `http://localhost:5000/api/datos`   |
 
 ## Criterios de aceptacion
 - [x] 
