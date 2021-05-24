@@ -15,7 +15,11 @@ VueJS = v4.5.7
 $ git clone https://github.com/calypsobronte/idiomas.git
 ```
 
+<br>
+<br>
+
 #### Backend *(nodejs, morgan, express, mongoose, nodemon, ES6+)*
+Para el backend utilice la tecnologia de nodejs con Express ya que es rapido y flexible con nodejs para la creacion de APIs.
 
 1. Ingresar al directorio clonado `idiomas/backend`
 
@@ -38,7 +42,11 @@ $ yarn start
 
   > Nota: la base de datos del proyecto se llama `idiomas` esta se crea automaticamente y no contiene password
 
+<br>
+<br>
+
 #### Frontend *(vuejs2, vuetify, axios)*
+Para el frontemd utilice la tecnologia Vuejs, ya que es con la que mas he interactuado en aprendizaje.
 
 1. Ingresar al directorio clonado `idiomas/frontend`
 
@@ -57,16 +65,29 @@ $ yarn install
 $ yarn serve
 ```
 
-4. Abra el sitio de desarrollo yendo a `http://localhost:8080` en su navegador.
+4. Abra el sitio de desarrollo en modo local yendo a la url `http://localhost:8080` en su navegador.
 
-### Rutas utilizadas con postam
-|  Entrada   |     URL    |
-| ---------- | ---------- |
-| GET   | `http://localhost:5000/api/datos`   |
-| POST   | `http://localhost:5000/api/datos`   |
+5. Alli te encontraras con el inicio de sesion para poder tener acceso a la aplicacion de idiomas.
+
+
+
+### Rutas utilizadas por medio de postman
+|  Entrada   |     URL    |  Salida   |
+| ---------- | ---------- | ---------- |
+| GET   | `http://localhost:5000/api/datos`   | [{"_id": "60aab107a5f8771375cfa33e", ...}] |
+| POST   | `http://localhost:5000/api/datos`   | { "name": "Lina", ...} |
 
 ## Criterios de aceptacion
-- [x] 
+- [x] Completitud de la solución
+- [x] Buenas prácticas de desarrollo
+- [x] Divergencia en el diseño
+- [x] Divergencia en la solución
+- [x] Publicar solución repositorio con Git
+- [x] Documentación de la solución
+## Bonus
+- [x] Obtener el nombre de un login con Google
+- [x] Traer los datos de una BD
+- [] Exponer la solución en algún servicio en nube
 
 ## Construido con
 
