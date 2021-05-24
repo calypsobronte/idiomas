@@ -87,7 +87,7 @@ $ yarn serve
 ## Bonus
 - [x] Obtener el nombre de un login con Google
 - [x] Traer los datos de una BD
-- [] Exponer la solución en algún servicio en nube
+- [x] Exponer la solución en algún servicio en nube
 
 ## Construido con
 
