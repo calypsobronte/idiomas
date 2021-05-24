@@ -2,14 +2,13 @@ import { Schema, model } from "mongoose";
 
 const DatosSchema = new Schema({
     name: {
-        type: String,
-        required: true,
+        type: String
     },
     idioma: {
-        type: String,
+        type: String
     },
     message: {
-        type: String,
+        type: String
     },
     create: { 
         type: Date, 
