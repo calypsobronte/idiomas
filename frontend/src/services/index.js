@@ -12,6 +12,7 @@ const getDataApi = async () => {
 
 const createDataApi = async (item) => {
   try {
+    console.log("Hlolaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
     const response = await axios.post(`${BASE_URL}/api/datos`, item);
     return response.data;
   } catch (error) {
